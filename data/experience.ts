@@ -59,32 +59,6 @@ export const experienceData: Experience[] = [
   // },
   {
     id: "exp-1",
-    role: "Full Stack Developer",
-    company: "3i Webexperts Pvt Ltd",
-    duration: "Apr 2024 — Jun 2026",
-    location: "Ahmedabad, Gujarat",
-    type: "Full-time",
-    responsibilities: [
-      "Developed and optimized server-side application logic using Next.js to improve code reusability and overall system performance.",
-      "Architected and maintained scalable backend systems with Node.js and Express, making REST APIs faster and more efficient.",
-      "Customized Shopify eCommerce stores by building custom product sections and heavily modifying the Horizon theme using Liquid, HTML, CSS, and JavaScript.",
-      "Worked on full-stack optimizations to reduce frontend rendering latency and speed up server-side response times."
-    ],
-    technologies: [
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "Shopify Liquid",
-      "JavaScript",
-      "HTML/CSS"
-    ],
-    achievements: [
-      "Successfully delivered customized eCommerce experiences by deeply modifying Shopify theme structures.",
-      "Noticeably improved application speed across both frontend rendering and backend API response times."
-    ]
-  },
-  {
-    id: "exp-2",
     role: "Web Development Trainee",
     company: "Tops Technologies",
     duration: "Jun 2023 — Mar 2024",
@@ -107,6 +81,32 @@ export const experienceData: Experience[] = [
     achievements: [
       "Built a strong foundation in modern frontend web development and responsive design patterns.",
       "Successfully learned how to integrate frontend UIs with APIs to create smooth and real-time user experiences."
+    ]
+  },
+  {
+    id: "exp-2",
+    role: "Full Stack Developer",
+    company: "3i Webexperts Pvt Ltd",
+    duration: "Apr 2024 — Jun 2026",
+    location: "Ahmedabad, Gujarat",
+    type: "Full-time",
+    responsibilities: [
+      "Developed and optimized server-side application logic using Next.js to improve code reusability and overall system performance.",
+      "Architected and maintained scalable backend systems with Node.js and Express, making REST APIs faster and more efficient.",
+      "Customized Shopify eCommerce stores by building custom product sections and heavily modifying the Horizon theme using Liquid, HTML, CSS, and JavaScript.",
+      "Worked on full-stack optimizations to reduce frontend rendering latency and speed up server-side response times."
+    ],
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Shopify Liquid",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    achievements: [
+      "Successfully delivered customized eCommerce experiences by deeply modifying Shopify theme structures.",
+      "Noticeably improved application speed across both frontend rendering and backend API response times."
     ]
   }
 ];

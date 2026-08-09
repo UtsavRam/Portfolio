@@ -79,11 +79,10 @@ export const ContactForm: React.FC = () => {
       {/* Status Banner */}
       {statusMessage && (
         <div
-          className={`p-4 rounded-lg flex items-start gap-3 text-xs sm:text-sm ${
-            statusMessage.type === "success"
-              ? "bg-emerald-500/10 border border-emerald-500/30 text-emerald-300"
-              : "bg-red-500/10 border border-red-500/30 text-red-300"
-          }`}
+          className={`p-4 rounded-lg flex items-start gap-3 text-xs sm:text-sm ${statusMessage.type === "success"
+            ? "bg-emerald-500/10 border border-emerald-500/30 text-emerald-300"
+            : "bg-red-500/10 border border-red-500/30 text-red-300"
+            }`}
         >
           {statusMessage.type === "success" ? (
             <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
@@ -108,7 +107,7 @@ export const ContactForm: React.FC = () => {
           <input
             id="name"
             type="text"
-            placeholder="John Doe"
+            placeholder="Enter Your Name"
             {...register("name")}
             className="w-full px-4 py-3 rounded-lg bg-dark-950 border border-white/10 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-gold-primary focus:ring-1 focus:ring-gold-primary transition-colors"
           />
@@ -123,7 +122,7 @@ export const ContactForm: React.FC = () => {
           <input
             id="email"
             type="email"
-            placeholder="john@example.com"
+            placeholder="Enter Your Email"
             {...register("email")}
             className="w-full px-4 py-3 rounded-lg bg-dark-950 border border-white/10 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-gold-primary focus:ring-1 focus:ring-gold-primary transition-colors"
           />

@@ -206,11 +206,11 @@ export default function ProjectCaseStudyPage({ params }: ProjectPageProps) {
           </div>
 
           {/* Architecture Workflow Section */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <FadeIn direction="up">
               <ArchitectureDiagram architecture={project.architecture} />
             </FadeIn>
-          </div>
+          </div> */}
 
           {/* Technical Challenges & Solutions */}
           {project.challenges && project.challenges.length > 0 && (
@@ -247,7 +247,7 @@ export default function ProjectCaseStudyPage({ params }: ProjectPageProps) {
           )}
 
           {/* Screenshots Gallery */}
-          {project.screenshots && project.screenshots.length > 0 && (
+          {/* {project.screenshots && project.screenshots.length > 0 && (
             <div className="space-y-4">
               <FadeIn direction="up">
                 <h2 className="text-2xl font-bold text-white tracking-tight">
@@ -259,7 +259,7 @@ export default function ProjectCaseStudyPage({ params }: ProjectPageProps) {
                 <ProjectGallery images={project.screenshots} title={project.title} />
               </FadeIn>
             </div>
-          )}
+          )} */}
 
           {/* Results & Impact Metrics */}
           {project.results && project.results.length > 0 && (

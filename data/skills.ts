@@ -106,13 +106,13 @@ export const skillsData: Skill[] = [
     level: "Advanced",
     description: "Centralized state management, RTK Query, slices & async thunks",
   },
-  {
-    name: "Zustand",
-    category: "State Management",
-    iconName: "Zap",
-    level: "Advanced",
-    description: "Lightweight, unopinionated client-side state management",
-  },
+  // {
+  //   name: "Zustand",
+  //   category: "State Management",
+  //   iconName: "Zap",
+  //   level: "Advanced",
+  //   description: "Lightweight, unopinionated client-side state management",
+  // },
 
   // Auth & APIs
   {
@@ -152,11 +152,11 @@ export const skillsData: Skill[] = [
     level: "Expert",
     description: "API testing, automated request collections & mock servers",
   },
-  {
-    name: "VS Code",
-    category: "Tools",
-    iconName: "Terminal",
-    level: "Expert",
-    description: "Advanced debugging, linting configuration & workspace optimization",
-  },
+  // {
+  //   name: "VS Code",
+  //   category: "Tools",
+  //   iconName: "Terminal",
+  //   level: "Expert",
+  //   description: "Advanced debugging, linting configuration & workspace optimization",
+  // },
 ];
